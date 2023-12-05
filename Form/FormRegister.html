@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+        <header>
+            <h3>มหาวิทยาลัยราชภัฏรำไพพรรณี จ.จันทบุรี</h3>
+            <h5>ใบสมัครเข้าเรียนปริญญาตรี ภาคปกติ 1/2565</h5>
+            <h5>ข้อมูลส่วนตัว</h5>
+        </header>
+      <form action="#" class="form">
+
+        <div class="column">
+          <div class="input-box">
+            <label class="form-label">คำนำหน้า</label>
+                    <select name="title" id="title" class="select-box">
+                        <option value="0" hidden></option>
+                        <option value="1">นาย</option>
+                        <option value="2">นางสาว</option>
+                    </select>
+          </div>
+          <div class="input-box">
+            <label>ชื่อ-นามสกุล</label>
+            <input type="text" placeholder="" required />
+          </div>
+        </div>
+        <div class="column">
+            <div class="input-box">
+                <label>ศาสนา</label>
+                <input type="text" placeholder="" required />
+            </div>
+            <div class="input-box">
+                <label>สัญชาติ</label>
+                <input type="text" placeholder="" required />
+            </div>
+        </div>
+        <div class="column">
+            <div class="input-box">
+                <label>เลขบัตรประชาชน</label>
+                <input type="text" placeholder="" required />
+            </div>
+        </div>
+        <div class="column">
+            <div class="input-box">
+                <label>ที่อยู่</label>
+                <input type="text" placeholder="" required />
+            </div>
+            <div class="input-box">
+                <label>ตำบล</label>
+                <input type="text" placeholder="" required />
+            </div>
+            <div class="input-box">
+                <label>อำเภอ</label>
+                <input type="text" placeholder="" required />
+            </div>
+        </div>
+        <div class="column">
+            <div class="input-box">
+                <label>จังหวัด</label>
+                <input type="text" placeholder="" required />
+            </div>
+            <div class="input-box">
+                <label>รหัสไปรษณีย์</label>
+                <input type="text" placeholder="" required />
+            </div>
+            <div class="input-box">
+                <label>โทรศัพท์มือถือ</label>
+                <input type="text" placeholder="" required />
+            </div>
+        </div>
+        <br><h3>ข้อมูลการศึกษา</h3>
+        <div class="column">
+            <div class="input-box">
+            <label class="form-label">วุฒิเดิม</label>
+                <select name="education" id="education" class="select-box">
+                    <option value="0" hidden></option>
+                    <option value="1">ม.6</option>
+                    <option value="2">ป.กศ</option>
+                    <option value="3">ปวช.</option>
+                    <option value="4">ปวท.</option>
+                    <option value="5">ปวส.</option>
+                    <option value="6">อ.วท</option>
+                    <option value="7">อ.ศศ</option>
+                    <option value="8">อ.บธ</option>
+                    <option value="9">ป.ตรี</option>
+                </select>
+            </div>
+        </div>
+        <div class="column">
+            <div class="input-box">
+                <label>เกรดเฉลี่ย</label>
+                <input type="text" placeholder="" required />
+            </div>
+            <div class="input-box">
+                <label>สถาบันที่จบ</label>
+                <input type="text" placeholder="" required />
+            </div>
+        </div>
+        <div class="column">
+            <div class="input-box">
+                <label class="form-label">คณะที่เลือก</label>
+                <select name="faculty" id="faculty" class="select-box"">
+                    <option value="0" hidden></option>
+                    <option value="1">คณะครุศาสตร์</option>
+                    <option value="2">คณะมนุษยศาสตร์และสังคมศาสตร์</option>
+                    <option value="3">คณะเทคโนโลยีการเกษตร</option>
+                    <option value="4">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                    <option value="5">คณะวิทยาการจัดการ</option>
+                    <option value="6">คณะเทคโนโลยีอุตสาหกรรม</option>
+                    <option value="7">คณะนิติศาสตร์</option>
+                    <option value="8">คณะนิเทศศาสตร์</option>
+                    <option value="9">คณะวิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ</option>
+                    <option value="10">คณะพยาบาลศาสตร์</option>
+                </select>
+            </div>
+        </div>
+            
+
+
+
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
